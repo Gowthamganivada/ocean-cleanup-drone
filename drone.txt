@@ -1,0 +1,120 @@
+# Low-Cost Ocean Cleanup Drone
+
+A project by a team of engineering students from Lendi Institute of Engineering and Technology, focused on creating affordable, practical solutions for environmental challenges.
+
+---
+
+## Project Overview
+
+Plastic waste in water bodies is a growing environmental threat. Manual cleanup is expensive and slow. This project presents a low-cost, net-equipped drone designed to autonomously collect floating waste from lakes, rivers, or coastal areas.
+
+---
+
+## Images
+
+### Full Assembled Drone
+
+![image1](image1)
+
+*The assembled low-cost ocean cleanup drone with green and black propellers, F450 frame, visible wiring, and mesh net, taken at an angle on a table.*
+
+### APM 2.8 Flight Controller Wiring
+
+![image2](image2)
+
+*Close-up of the APM 2.8 flight controller wiring, showing detailed pin and cable connections.*
+
+### Mesh Net and Landing Gear Close-Up
+
+![image3](image3)
+
+*Close-up of the drone’s mesh net system mounted to the landing gear, designed for efficient collection of floating debris. A hand holds the drone, with visible wiring and the flight controller.*
+
+### Top-Down View of Completed Drone
+
+![image4](image4)
+
+*Overhead view showing the propeller configuration, electronics, and the central mounting of the mesh net.*
+
+### Flight Controller and GPS Module
+
+![image5](image5)
+
+*Side view of the APM 2.8 flight controller and GPS module, showing navigation and stabilization wiring.*
+
+### FlySky Receiver Connections
+
+![image6](image6)
+
+*Detailed shot of the FlySky iA6B receiver, highlighting connection pins and setup for remote control.*
+
+---
+
+## Objectives
+
+- Develop an affordable drone for surface waste collection.
+- Automate the process using a servo-actuated net.
+- Provide real-time monitoring via FPV (First Person View) camera.
+- Create a user-friendly and energy-efficient solution for water cleanup.
+
+---
+
+## Components Used
+
+| Component        | Details                         |
+|------------------|---------------------------------|
+| Flight Controller| APM 2.8 (ArduPilot)             |
+| ESCs             | 30A                             |
+| Motors           | 1000KV Brushless                |
+| Frame            | F450                            |
+| Propellers       | 10×4.5 inch                     |
+| Battery          | 2200mAh LiPo                    |
+| TX/RX            | FlySky FS-i6                    |
+| FPV Camera       | LST-S2 FPV AIO                  |
+| FPV Receiver     | SKYDROID UVC Mini               |
+| Servo Motor      | For net-based collection        |
+| Net Mechanism    | DIY mesh net                    |
+
+---
+
+## How It Works
+
+1. **Takeoff & Navigation:**  
+   Manual or semi-autonomous control using the FlySky FS-i6 transmitter and Mission Planner software.
+
+2. **Waste Detection & Collection:**  
+   Pilot identifies debris via FPV camera. A servo lowers the collection net to scoop waste, then lifts it for transport.
+
+3. **Waste Disposal:**  
+   Drone flies to a disposal area, where the servo releases the collected waste.
+
+4. **Return & Landing:**  
+   Drone returns to the launch point for battery change or next mission.
+
+---
+
+## Assembly & Setup
+
+- **Frame and Motors:** Mount motors on F450 frame.
+- **ESCs:** Connect to motors and power distribution.
+- **Flight Controller:** Wire up APM 2.8, calibrate with Mission Planner.
+- **Net System:** Attach servo and net for debris collection.
+- **FPV:** Install camera and receiver for live video.
+- **Radio System:** Connect FlySky receiver and configure channels.
+
+See [`/docs/build_guide.md`](docs/build_guide.md) and [`/docs/mission_planner_setup.md`](docs/mission_planner_setup.md) for detailed steps.
+
+---
+
+## Challenges & Future Improvements
+
+- **Challenges:** Weight balancing, waterproofing, servo integration, flight tuning over water.
+- **Planned Improvements:**
+  - AI-based waste detection for automation.
+  - Solar charging for longer missions.
+  - Enhanced waterproofing and durability.
+  - Increased payload for larger cleanups.
+
+---
+
+*We hope this project inspires others to develop practical solutions for environmental cleanup!*
